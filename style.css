@@ -30,3 +30,7 @@ li a{
   text-decoration: none;
   padding: 14px 50px;
 }
+li a:hover{
+  background-color: white;
+  color: black;
+}
