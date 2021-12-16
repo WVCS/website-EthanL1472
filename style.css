@@ -6,6 +6,11 @@ h1 {
   text-align: center;
   top: 40px;
 }
+h2 {
+  color: #00c8ff;
+  text-align: center;
+  top: 40px;
+}
 nav {
   list-style-type: none;
   background color: white;
