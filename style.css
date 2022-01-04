@@ -1,26 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-background-color: #bac3d1;
+  
+background-color: #d4e7ff;
 }
 h1 {
   color: #00c8ff;
-  text-align: center;
   top: 40px;
+  font-family: 'Raleway';
 }
 h2 {
   color: #00c8ff;
-  text-align: center;
   top: 40px;
-}
-nav {
+  font-family: 'Raleway';
+
+} 
+ nav {
   list-style-type: none;
-  background color: white;
+  background-color: #002754;
   width: 100%;
+  overflow: hidden;
+  position: fixed;
   left: 0;
   top: 0;
   margin: 0;
-  overflow: hidden;
-  position: fixed;
 }
+
 li {
   float: left;
 }
@@ -28,7 +33,9 @@ li a{
   display: block;
   color: white;
   text-decoration: none;
-  padding: 14px 50px;
+  padding: 15px 50px;
+  background-color: #002754;
+  font-family: 'Roboto';
 }
 li a:hover{
   background-color: white;
